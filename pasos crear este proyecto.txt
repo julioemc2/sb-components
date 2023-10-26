@@ -11,3 +11,21 @@ git s
 git init
 git add .
 git commit -m "Storybook listo"
+
+***********
+
+npm i -D rimraf
+npm install -D copyfiles
+
+package.json
+"build": "npm run clean && tsc && vite build && npm run copyfiles",
+"clean": "rimraf dist/",
+"copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+
+
+npm login
+npm publish
+
+// Que pasaria si yo quiero publicar:
+npm publish --dry-run
+
