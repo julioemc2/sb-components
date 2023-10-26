@@ -1,0 +1,13 @@
+npm create vite
+
+React - TypeScript + SWC
+
+npm install
+
+npx storybook@latest init
+
+***********
+git s
+git init
+git add .
+git commit -m "Storybook listo"
